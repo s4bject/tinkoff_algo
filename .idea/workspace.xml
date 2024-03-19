@@ -4,33 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88e1659f-790b-49d1-bc7d-9339631b6f18" name="Changes" comment="" />
+    <list default="true" id="88e1659f-790b-49d1-bc7d-9339631b6f18" name="Changes" comment="beta">
+      <change afterPath="D:/tinkoff_algo/contest5/A.py" afterDir="false" />
+      <change beforePath="D:/tinkoff_algo/.idea/workspace.xml" beforeDir="false" afterPath="D:/tinkoff_algo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="D:/tinkoff_algo/contest3/C.py" beforeDir="false" afterPath="D:/tinkoff_algo/contest3/C.py" afterDir="false" />
+      <change beforePath="D:/tinkoff_algo/contest4/E.py" beforeDir="false" afterPath="D:/tinkoff_algo/contest4/E.py" afterDir="false" />
+      <change beforePath="D:/tinkoff_algo/contest4/F.py" beforeDir="false" afterPath="D:/tinkoff_algo/contest4/F.py" afterDir="false" />
+      <change beforePath="D:/tinkoff_algo/contest4/G.py" beforeDir="false" afterPath="D:/tinkoff_algo/contest4/G.py" afterDir="false" />
+      <change beforePath="D:/tinkoff_algo/contest4/H.py" beforeDir="false" afterPath="D:/tinkoff_algo/contest4/H.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/tinkoff_algo" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2diYe4qR5964Ch6BHWvAZwJ3wNR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/tinkoff_algo/contest4",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/tinkoff_algo&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\tinkoff_algo\contest4" />
@@ -71,11 +84,38 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710492457223</updated>
-      <workItem from="1710492462806" duration="1160000" />
+      <workItem from="1710492462806" duration="4735000" />
+      <workItem from="1710731718676" duration="25000" />
+      <workItem from="1710734980976" duration="4387000" />
+      <workItem from="1710743354606" duration="2305000" />
+      <workItem from="1710782090069" duration="1078000" />
+      <workItem from="1710783216376" duration="343000" />
     </task>
+    <task id="LOCAL-00001" summary="beta">
+      <option name="closed" value="true" />
+      <created>1710493662169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710493662169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="beta" />
+    <option name="LAST_COMMIT_MESSAGE" value="beta" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tinkoff_algo$E.coverage" NAME="E Coverage Results" MODIFIED="1710494309983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo/contest4" />
+    <SUITE FILE_PATH="coverage/tinkoff_algo$F.coverage" NAME="F Coverage Results" MODIFIED="1710496832723" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo/contest4" />
+    <SUITE FILE_PATH="coverage/tinkoff_algo$H.coverage" NAME="H Coverage Results" MODIFIED="1710783054229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo/contest4" />
+    <SUITE FILE_PATH="coverage/tinkoff_algo$main.coverage" NAME="main Coverage Results" MODIFIED="1710493880399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo" />
+    <SUITE FILE_PATH="coverage/tinkoff_algo$A.coverage" NAME="A Coverage Results" MODIFIED="1710745648506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo/contest5" />
+    <SUITE FILE_PATH="coverage/tinkoff_algo$C.coverage" NAME="C Coverage Results" MODIFIED="1710737763093" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo/contest3" />
+    <SUITE FILE_PATH="coverage/tinkoff_algo$G.coverage" NAME="G Coverage Results" MODIFIED="1710737454790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/tinkoff_algo/contest4" />
   </component>
 </project>

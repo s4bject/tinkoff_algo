@@ -1,26 +1,9 @@
-def count_segments(nums, max_sum):
-    segments = 1
-    current_sum = 0
-    for num in nums:
-        current_sum += num
-        if current_sum > max_sum:
-            segments += 1
-            current_sum = num
-    return segments
-
-def min_max_segment_sum(nums, k):
-    l = max(nums)
-    r = sum(nums)
-    while l < r:
-        mid = (l + r) // 2
-        segments = count_segments(nums, mid)
-
-        if segments <= k:
-            r = mid
-        else:
-            l = mid + 1
-    return l
-
-n, k = map(int, input().split())
-nums = list(map(int, input().split()))
-print(min_max_segment_sum(nums, k))
+n = int(input())
+l1,r1 = 10**9,-(10**9)
+for _ in range(n):
+    l,r = list(map(int, input().split()))
+    if l < l1:
+        l1 = l
+    if r > r1:
+        r1 = r
+print(r1-l1)
