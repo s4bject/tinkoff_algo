@@ -1,27 +1,24 @@
-def z_function(s, a, b):
-    n = b - a
-    z = [0] * n
-    l, r = 0, 0
-    for i in range(1, n):
-        if i <= r:
-            z[i] = min(r - i + 1, z[i - l])
-        while i + z[i] < n and s[a + z[i]] == s[a + i + z[i]]:
-            z[i] += 1
-        if i + z[i] - 1 > r:
-            l, r = i, i + z[i] - 1
-    return z
+PRIME = 101
+MOD = 1000000007
 
+def compute_hashes(s):
+    n = len(s)
+    hashes = [0] * (n + 1)
+    prime_pows = [1] * (n + 1)
+    for i in range(n):
+        hashes[i + 1] = (hashes[i] * PRIME + ord(s[i])) % MOD
+        prime_pows[i + 1] = (prime_pows[i] * PRIME) % MOD
+    return hashes, prime_pows
 
-def substrings(s, a, b, c, d):
-    z1 = z_function(s, a - 1, b)
-    z2 = z_function(s, c - 1, d)
-    return z1 == z2 and s[a - 1:b] == s[c - 1:d]
+def get_hash(hashes, prime_pows, l, r):
+    return (hashes[r] - hashes[l - 1] * prime_pows[r - l + 1]) % MOD
+
+def check_two_subs(hashes, prime_pows, a, b, c, d):
+    return get_hash(hashes, prime_pows, a, b) == get_hash(hashes, prime_pows, c, d)
 
 s = input().strip()
 m = int(input().strip())
+hashes, prime_pows = compute_hashes(s)
 for _ in range(m):
-    a, b, c, d = map(int, input().split())
-    if substrings(s, a, b, c, d):
-        print("Yes")
-    else:
-        print("No")
+    a1, b1, a2, b2 = map(int, input().split())
+    print("Yes" if check_two_subs(hashes, prime_pows, a1, b1, a2, b2) else "No")
